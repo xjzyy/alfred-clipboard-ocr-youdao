@@ -12,10 +12,20 @@
 
 1. [下载 workflow](https://github.com/baker221/alfred-clipboard-ocr-youdao/releases) 并使用 Alfred 安装
 2. 去 [有道智云控制台](https://ai.youdao.com/console/#/) 申请一个通用文字识别的应用，并记下 应用ID 和 应用密钥
+<img width="1052" alt="image" src="https://user-images.githubusercontent.com/29560190/236690834-00b4d94e-ef16-46d7-8785-848d1caaadc1.png">
 3. 打开 Alfred 设置，找到这个 workflow 并打开变量控制面板
    ![变量控制面板的位置](./assets/open-variables-panel.jpg)
 4. 将第二步中获得的 API Key 和 API Secret 填入对应的变量中
    ![添加变量的示意图](./assets/set-variables.jpg)
+
+## 修改配置
+打开终端
+```
+cd ~/Library/Application\ Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.A83C867C-3F70-4E21-955C-78592F4F7B8B
+chmod +x main.py
+vim main.py
+# 第一行修改为：#!/usr/bin/python3
+```
 
 ## 使用说明
 
