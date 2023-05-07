@@ -26,8 +26,10 @@
 
 修改main.py第一行实际系统python3的位置; 例：#!/usr/bin/python3
 > whereis python3
-> vim main.py
-> #!/usr/bin/python3
+```
+vim main.py
+
+#!/usr/bin/python3
 ```
 
 ## 使用说明
