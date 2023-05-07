@@ -20,12 +20,14 @@
    ![添加变量的示意图](./assets/set-variables.jpg)
 
 ## 修改配置
-打开终端
-```
-cd ~/Library/Application\ Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.A83C867C-3F70-4E21-955C-78592F4F7B8B
-chmod +x main.py
-vim main.py
-# 第一行修改为：#!/usr/bin/python3
+打开终端执行
+`cd ~/Library/Application\ Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.A83C867C-3F70-4E21-955C-78592F4F7B8B`
+> chmod +x main.py
+
+修改main.py第一行实际系统python3的位置; 例：#!/usr/bin/python3
+> whereis python3
+> vim main.py
+> #!/usr/bin/python3
 ```
 
 ## 使用说明
